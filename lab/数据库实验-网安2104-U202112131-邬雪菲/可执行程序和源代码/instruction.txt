@@ -1,0 +1,13 @@
+可执行程序和源代码说明：
+
+shiftw-sql.exe是最终的数据库应用程序，双击即可运行，无需python环境配置。但需要用户拥有搭建好的mysql相应数据库并取得参数(host, user, password, database)，才可以连接并继续操作
+
+shiftw-sql.spec和build文件夹是pyinstaller打包脚本生成的原始文件
+
+目录下的shiftw-sql.py是程序的源代码脚本，在配置环境后可以运行。
+参考的环境配置方案如下：
+Python 3.10.14
+conda 23.7.2
+pymysql 1.0.2
+mysql-connector-python 8.3.0
+mysql 8.0.37
